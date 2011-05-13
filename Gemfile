@@ -8,6 +8,8 @@ group :develoment, :test do
   gem 'rspec-rails'
 end
 group :test do
+  gem 'cucumber-rails'
+  gem 'capybara'
   gem 'factory_girl_rails'
   gem 'forgery'
 end
