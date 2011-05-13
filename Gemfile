@@ -1,14 +1,13 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.5'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+gem 'rails', '3.0.7'
 
 gem 'sqlite3'
-group :develoment do
+gem 'devise'
+group :develoment, :test do
   gem 'rspec-rails'
+end
+group :test do
   gem 'factory_girl_rails'
   gem 'forgery'
 end
-
